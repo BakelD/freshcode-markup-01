@@ -3,7 +3,117 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>AUS Tours</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <a href="./index.html">Logo</a>
+
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#popular">Popular destinations</a></li>
+          <li><a href="#book">Book the trip</a></li>
+        </ul>
+      </nav>
+
+      <ul>
+        <li><a href="mailto:some@gmail.com">some@gmail.com</a></li>
+        <li><a href="tel:+49111111111">+49-111-11-11-11</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <section id="about">
+        <h1>Tours to Australia</h1>
+        <img src="./img/sydney.webp" alt="Australia" />
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa distinctio dignissimos quam alias ipsam
+          voluptatibus velit aliquam pariatur veniam adipisci necessitatibus cum sequi magni dolor, numquam
+          reprehenderit optio architecto reiciendis, iusto a sed consectetur eveniet porro eius. Consectetur voluptates
+          quis dolorem, facere rerum adipisci labore repellat id, exercitationem reiciendis atque?
+        </p>
+      </section>
+
+      <section id="popular">
+        <h2>Popular destinations</h2>
+
+        <ul>
+          <li>
+            <h3>Sydney</h3>
+            <img src="./img/sydney.jpg" alt="Sydney" />
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil cupiditate voluptatem optio libero esse
+              quia sit qui temporibus expedita earum.
+            </p>
+          </li>
+          <li>
+            <h3>Melbourne</h3>
+            <img src="./img/melbourne.jpg" alt="Melbourne" />
+
+            <p>
+              Dolor molestias amet est excepturi architecto ipsum eligendi, beatae vero debitis. Voluptate qui, id quas
+              repellendus modi repellat architecto cupiditate.
+            </p>
+          </li>
+          <li>
+            <h3>Brisbane</h3>
+            <img src="./img/brisbane.jpg" alt="Brisbane" />
+
+            <p>
+              Placeat, unde distinctio! Commodi quia at id repellat. Veniam, vero. Tempora voluptatum, debitis
+              reprehenderit perferendis iure at nisi vero pariatur.
+            </p>
+          </li>
+          <li>
+            <h3>Gold Coast</h3>
+            <img src="./img/gold-coast.jpg" alt="Gold Coast" />
+
+            <p>
+              Iusto quos ab rem at sit quaerat distinctio impedit, eligendi quasi, non vel culpa rerum a dolores!
+              Labore, dolores ea.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="book">
+        <h2>Book your Trip</h2>
+
+        <form>
+          <div class="form-field">
+            <label>First name: <input type="text" /></label>
+          </div>
+          <div class="form-field">
+            <label>Last name: <input type="text" /></label>
+          </div>
+          <div class="form-field">
+            <label>Phone: <input type="tel" /></label>
+          </div>
+          <div class="form-field">
+            <label for="city">Select the city: </label>
+            <select name="city" id="city">
+              <option value="syd">Sydney</option>
+              <option value="mel">Melbourne</option>
+              <option value="bri">Brisbane</option>
+              <option value="gcs">Gold Coast</option>
+            </select>
+          </div>
+
+          <button type="submit">Book it now!</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; copyright 2025</p>
+
+      <ul>
+        <li><a href="mailto:some@gmail.com">some@gmail.com</a></li>
+        <li><a href="tel:+49111111111">+49-111-11-11-11</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
